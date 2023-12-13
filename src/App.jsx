@@ -20,7 +20,6 @@ const App = () => {
         <WhyChooseUs/>
         <Testimonials/>
         <Offers/>
-        <NetflixCarousel/>
         <Footer/> 
       </div>
 
