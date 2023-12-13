@@ -3,13 +3,13 @@ import WhyUs from './WhyUs';
 
 const WhyChooseUs = () => {
   return (
-    <div className='bg-black w-full min-h-screen'>
-      <div>
+    <div className='bg-black w-full min-h-screen '>
+      <div className=' '>
         <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold flex items-center justify-center p-4 md:p-8'>
           Why Choose Us?
         </h1>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  items-center justify-center p-4 md:p-20'>
+      <div className='grid  sm:flex-row  justify-center md:grid-cols-2 lg:grid-cols-3   items-center p-4 md:p-20'>
         <WhyUs 
           icon="path/to/your/icon.png"
           title="HD SPORTS"
