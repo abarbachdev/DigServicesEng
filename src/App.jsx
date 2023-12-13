@@ -7,6 +7,8 @@ import Testimonials from './components/Testimonials';
 import Offers from './components/Offers';
 import Footer from './components/Footer';
 import ContactUs from './components/ContactUs';
+import NetflixCarousel from './components/NetflixCarousel';
+
 
 
 const App = () => {
@@ -18,6 +20,7 @@ const App = () => {
         <WhyChooseUs/>
         <Testimonials/>
         <Offers/>
+        <NetflixCarousel/>
         <Footer/> 
       </div>
 

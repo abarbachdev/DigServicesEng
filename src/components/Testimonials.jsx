@@ -8,25 +8,25 @@ const Testimonials = () => {
       id: 1,
       name: 'Dave',
       testimonial: 'So far, I am really liking this service. I haven\'t really come across any issues. I\'ve been using it for a week and so far so good!',
-      imageUrl: './src/assets/client1.jpeg', 
+      imageUrl: '/assets/client1.jpeg', 
     },
     {
       id: 2,
       name: 'Clark',
       testimonial: 'I was looking for a cost-effective way to watch international channels and this IPTV service delivered. The channel selection is vast and the picture quality is impressive. I couldn\'t be happier.',
-      imageUrl: './src/assets/client2.jpeg', 
+      imageUrl: '/assets/client2.jpeg', 
     },
     {
       id: 3,
       name: 'Williams James',
       testimonial: 'I was hesitant to try yet another IPTV service, but I\'m so glad I gave this one a chance. The user interface is easy to navigate and the customer service is top-notch. I couldn\'t be happier with my experience.',
-      imageUrl: './src/assets/client3.jpeg', 
+      imageUrl: '/assets/client3.jpeg', 
     },
     {
       id: 4,
       name: 'Cassie Carleton',
       testimonial: 'I\'ve tried multiple IPTV services before, but this one stands out for its reliability and high-quality streaming. It\'s worth every penny and I recommend it to anyone looking for a great TV experience.',
-      imageUrl: './src/assets/client4.jpeg', 
+      imageUrl: '/assets/client4.jpeg', 
     }
 
   ]);
