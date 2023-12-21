@@ -46,7 +46,7 @@ const Testimonials = () => {
   return (
     <Element name="testimonials">
     <div className="w-full min-h-screen p-6 md:p-10 flex flex-col items-center justify-center">
-      <p className='text-2xl md:text-2xl text-red-600 mb-4 font-semibold'>More than 8000 Satisfied Customers</p>
+      <p className='text-2xl md:text-2xl text-red-600 mb-4 font-semibold text-center'>More than 8000 Satisfied Customers</p>
       <h1 className='text-3xl md:text-5xl text-center font-bold mb-4 md:mb-8'>
         What our clients say about our IPTV subscriptions
       </h1>
