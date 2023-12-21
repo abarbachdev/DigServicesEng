@@ -40,6 +40,9 @@ const Offer = ({ duration, benefits, discountedPrice, actualPrice, btnurl }) => 
           </div>
         </div>
        <BuyNowButton url={btnurl} />
+       <div className='text-gray-300 flex items-center justify-center p-2'>
+       Ready within 5-10 mins
+       </div>
       </div>
       
     );

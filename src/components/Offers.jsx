@@ -33,7 +33,7 @@ const Offers = () => {
     },
     {
       id: 4,
-      duration: '12 Months',
+      duration: '12 Months (Popular)',
       benefits: ['14.000+ Live TV Channels', '40.000+ VODs & Series', 'Premium Sport Channels', 'Anti Freeze System', 'All Devices are supported','m3u/xtream codes/portal', 'Technical Assistance','7 Days Money Back Guarantee' ],
       discountedPrice: 70,
       actualPrice: 59,
@@ -47,7 +47,8 @@ const Offers = () => {
     <section className='bg-black w-full h-full flex flex-col justify-center items-center'>
     <div>
     <h1 className='text-3xl md:text-5xl font-semibold text-white p-4 md:p-10  text-center'>Choose your plan</h1>
-    <h2 className='text-gray-300  text-lg md:text-2xl p-4 flex-row text-center '>Unleash the full potential of your entertainment with our unbeatable IPTV pricing plans. <br/>Choose the perfect package that suits your needs and enjoy endless hours of streaming bliss.</h2>
+    <h2 className='text-gray-300  text-lg md:text-2xl p-4 flex-row text-center '>Unleash the full potential of your entertainment with our unbeatable IPTV pricing plans. <br/>Choose the perfect package that suits your needs and enjoy more than 14,000 channels <br/>+40,000 VOD and Series in 4K/FHD/HD/SD quality <br/>that you can watch on any device.</h2>
+    <h2 className='text-orange-500 text-2xl font-semibold flex items-center justify-center'>7 Days Money Back Guarantee</h2>
     </div>
     <div className='md:flex sm:flex-row sm:p-8 p-8 sm:gap-4  items-center justify-center'>
     {offerData.map((offer) => (

@@ -14,7 +14,7 @@ const Hero = () => {
           Discover Premium <br className="sm:hidden"/> IPTV Subscriptions
         </h1>
 
-        <h2 className='text-2xl sm:text-4xl text-white font-semibold mb-8 sm:mb-16'>
+        <h2 className='text-2xl  sm:text-4xl text-white font-semibold mb-8 sm:mb-16'>
           Your Trusted IPTV Provider <br className="sm:hidden"/> for the Best Services
         </h2>
 
@@ -28,7 +28,7 @@ const Hero = () => {
             offset={-70} // Adjust this offset as needed based on your layout
             duration={500}
           >
-            Start Now
+            Get Yours Now
           </Link>   
             
           </button>

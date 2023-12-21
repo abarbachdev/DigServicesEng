@@ -1,21 +1,30 @@
-import React from 'react'
+import React from 'react';
 import WhyUs from './WhyUs';
 
 const WhyChooseUs = () => {
   return (
-    <div className='bg-black w-full min-h-screen '>
-      <div className=' '>
-        <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold flex items-center justify-center p-4 md:p-8'>
-          Why Choose Us?
+    <div className='bg-black min-h-screen'>
+      <div className='text-center'>
+        <h1 className='text-2xl  md:text-4xl lg:text-5xl text-white font-semibold py-4 md:py-8'>
+          Why Choose our Premium Iptv Service?
         </h1>
+        <p className='text-gray-300 text-center  px-4 md:px-8'>
+          We take pride in offering you the best-in-class entertainment experience with our PREMIUM IPTV service. Our commitment to delivering top-notch quality and an unparalleled viewing experience sets us apart from the rest. Here's why you should choose our PREMIUM IPTV for all your streaming needs:
+        </p>
       </div>
-      <div className='grid  sm:flex-row  justify-center md:grid-cols-2 lg:grid-cols-3   items-center p-4 md:p-20'>
-        <WhyUs 
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 p-4 md:p-20 items-center justify-center'>
+        <WhyUs
           icon="path/to/your/icon.png"
-          title="HD SPORTS"
-          text="Stream all your favorite live HD sports from all around the world. Don’t miss your favorite teams anymore!"
-          padding="p-4"
+          title="SERVER STABILITY"
+          text="No more freezing, stuttering. Our IPTV Services are always ready with our powerful streaming servers."
         />
+
+<WhyUs 
+        icon="path/to/your/icon.png"
+        title="RELIABLE 24/7 SUPPORT"
+        text="We're here for you, day and night. Get assistance anytime with our 24/7 support."
+        />
+        
          <WhyUs 
         icon="path/to/your/icon.png"
         title="4K ULTRA HD"
@@ -25,23 +34,21 @@ const WhyChooseUs = () => {
         <WhyUs 
         icon="path/to/your/icon.png"
         title="COMPATIBILITY"
-        text="MAG, Dreamlink T1, Avov, Android, WebTV (browser), and XBMC/KODI are the supported platforms."
+        text="Our Iptv subscription is compatible with all devices, such as Smart TVs, MAG devices, smartphones and tablets, Amazon Fire Stick, MAC, Android devices, Fire TV, Windows, and more."
         />
+       <WhyUs 
+          icon="path/to/your/icon.png"
+          title="INSTANT IPTV ACTIVATION"
+          text="Subscribe and enjoy instant activation for your Iptv account via email or Whatsapp. Start streaming right away!"
+          padding="p-4"
+        />
+       
         <WhyUs 
         icon="path/to/your/icon.png"
-        title="GREAT SUPPORT"
-        text="Stream all your favorite live HD sports from all around the world. Don’t miss your favorite teams anymore!"
+        title="COMPETITIVE PRICING"
+        text="We believe that quality entertainment should be accessible to all. That's why we offer competitive pricing plans that cater to your budget without compromising on quality."
         />
-        <WhyUs 
-        icon="path/to/your/icon.png"
-        title="SERVER STABILITY"
-        text="No more freezing, stuttering. Our IPTV Services are always ready with our powerful streaming servers."
-        />
-        <WhyUs 
-        icon="path/to/your/icon.png"
-        title="VIDEO ON DEMAND"
-        text="Enjoy more than 1500 Movies, and TV shows instantly! All our VOD are updated on daily basis."
-        />
+
       </div>
     </div>
   );
