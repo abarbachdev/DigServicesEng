@@ -33,15 +33,15 @@ const Offer = ({ duration, benefits, discountedPrice, actualPrice, btnurl }) => 
         </div>
         <div className=" flex items-center justify-center gap-4">
           <div className="font-semibold text-red-500 line-through ">
-             ${discountedPrice}
+          €{discountedPrice}
           </div>
           <div className="flex justify-between items-center text-green-500 text-2xl font-semibold">
-             : ${actualPrice}
+             : €{actualPrice}
           </div>
         </div>
        <BuyNowButton url={btnurl} />
        <div className='text-gray-300 flex items-center justify-center p-2'>
-       Ready within 5-10 mins
+       Fertig in 5-10 Minuten
        </div>
       </div>
       

@@ -7,25 +7,25 @@ const Testimonials = () => {
     {
       id: 1,
       name: 'Dave',
-      testimonial: 'So far, I am really liking this service. I haven\'t really come across any issues. I\'ve been using it for a week and so far so good!',
+      testimonial: 'Bis jetzt gefällt mir dieser Dienst wirklich gut. Ich bin nicht wirklich auf irgendwelche Probleme gestoßen. Ich benutze ihn seit einer Woche und so weit, so gut!',
       imageUrl: '/client1.jpeg', 
     },
     {
       id: 2,
       name: 'Clark',
-      testimonial: 'I was looking for a cost-effective way to watch international channels and this IPTV service delivered. The channel selection is vast and the picture quality is impressive. I couldn\'t be happier.',
+      testimonial: 'Ich war auf der Suche nach einer kostengünstigen Möglichkeit, internationale Kanäle zu sehen, und dieser IPTV-Dienst hat mich überzeugt. Die Kanalauswahl ist riesig und die Bildqualität ist beeindruckend. Ich könnte nicht glücklicher sein.',
       imageUrl: '/client2.jpeg', 
     },
     {
       id: 3,
       name: 'Williams James',
-      testimonial: 'I was hesitant to try yet another IPTV service, but I\'m so glad I gave this one a chance. The user interface is easy to navigate and the customer service is top-notch. I couldn\'t be happier with my experience.',
+      testimonial: 'Ich zögerte, einen weiteren IPTV-Dienst auszuprobieren, aber ich bin so froh, dass ich diesem eine Chance gegeben habe. Die Benutzeroberfläche ist einfach zu navigieren und der Kundenservice ist erstklassig. Ich könnte mit meiner Erfahrung nicht zufriedener sein.',
       imageUrl: '/client3.jpeg', 
     },
     {
       id: 4,
       name: 'Cassie Carleton',
-      testimonial: 'I\'ve tried multiple IPTV services before, but this one stands out for its reliability and high-quality streaming. It\'s worth every penny and I recommend it to anyone looking for a great TV experience.',
+      testimonial: 'Ich habe schon mehrere IPTV-Dienste ausprobiert, aber dieser zeichnet sich durch seine Zuverlässigkeit und die hohe Qualität des Streaming aus. Er ist jeden Cent wert und ich empfehle ihn jedem, der ein tolles TV-Erlebnis sucht.',
       imageUrl: '/client4.jpeg', 
     }
 
@@ -46,9 +46,9 @@ const Testimonials = () => {
   return (
     <Element name="testimonials">
     <div className="w-full min-h-screen p-6 md:p-10 flex flex-col items-center justify-center">
-      <p className='text-2xl md:text-2xl text-red-600 mb-4 font-semibold text-center'>More than 8000 Satisfied Customers</p>
+      <p className='text-2xl md:text-2xl text-red-600 mb-4 font-semibold text-center'>Mehr als 8000 zufriedene Kunden</p>
       <h1 className='text-3xl md:text-5xl text-center font-bold mb-4 md:mb-8'>
-        What our clients say about our IPTV subscriptions
+      Was unsere Kunden über unsere IPTV-Abonnements sagen
       </h1>
       <div className="flex flex-col items-center justify-center">
         <img

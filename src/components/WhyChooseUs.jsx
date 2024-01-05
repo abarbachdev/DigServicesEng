@@ -6,47 +6,47 @@ const WhyChooseUs = () => {
     <div className='bg-black min-h-screen'>
       <div className='text-center'>
         <h1 className='text-2xl  md:text-4xl lg:text-5xl text-white font-semibold py-4 md:py-8'>
-          Why Choose our Premium Iptv Service?
+        Warum sollten Sie unseren Premium Iptv Service wählen?
         </h1>
         <p className='text-gray-300 text-center  px-4 md:px-8'>
-          We take pride in offering you the best-in-class entertainment experience with our PREMIUM IPTV service. Our commitment to delivering top-notch quality and an unparalleled viewing experience sets us apart from the rest. Here's why you should choose our PREMIUM IPTV for all your streaming needs:
+        Wir sind stolz darauf, Ihnen mit unserem PREMIUM IPTV-Service ein erstklassiges Unterhaltungserlebnis zu bieten. Unser Engagement für erstklassige Qualität und ein unvergleichliches Seherlebnis hebt uns von anderen Anbietern ab. Hier sind die Gründe, warum Sie unser PREMIUM IPTV für Ihre Streaming-Anforderungen wählen sollten:
         </p>
       </div>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 p-4 md:p-20 items-center justify-center'>
         <WhyUs
           icon="path/to/your/icon.png"
-          title="SERVER STABILITY"
-          text="No more freezing, stuttering. Our IPTV Services are always ready with our powerful streaming servers."
+          title="SERVER-STABILITÄT"
+          text="Kein Einfrieren und Stottern mehr. Unsere IPTV-Dienste sind mit unseren leistungsstarken Streaming-Servern immer bereit."
         />
 
 <WhyUs 
         icon="path/to/your/icon.png"
-        title="RELIABLE 24/7 SUPPORT"
-        text="We're here for you, day and night. Get assistance anytime with our 24/7 support."
+        title="ZUVERLÄSSIGER 24/7-SUPPORT"
+        text="Wir sind für Sie da, Tag und Nacht. Holen Sie sich jederzeit Hilfe mit unserem 24/7-Support."
         />
         
          <WhyUs 
         icon="path/to/your/icon.png"
         title="4K ULTRA HD"
-        text="Over 18,000 live channels, +8,400 series, and +60,000 movies you will definitely find the one you love.
-        Sports, news, action, kids, international, local, HD, and UHD."
+        text="Bei über 18.000 Live-Kanälen, +8.400 Serien und +60.000 Filmen finden Sie bestimmt das, was Sie lieben.
+        Sport, Nachrichten, Action, Kinder, International, Lokal, HD und UHD."
         />
         <WhyUs 
         icon="path/to/your/icon.png"
-        title="COMPATIBILITY"
-        text="Our Iptv subscription is compatible with all devices, such as Smart TVs, MAG devices, smartphones and tablets, Amazon Fire Stick, MAC, Android devices, Fire TV, Windows, and more."
+        title="KOMPATIBILITÄT"
+        text="Unser Iptv-Abonnement ist mit allen Geräten kompatibel, wie Smart TVs, MAG-Geräte, Smartphones und Tablets, Amazon Fire Stick, MAC, Android-Geräte, Fire TV, Windows und mehr."
         />
        <WhyUs 
           icon="path/to/your/icon.png"
-          title="INSTANT IPTV ACTIVATION"
-          text="Subscribe and enjoy instant activation for your Iptv account via email or Whatsapp. Start streaming right away!"
+          title="SOFORTIGE IPTV-AKTIVIERUNG"
+          text="Abonnieren Sie und genießen Sie die sofortige Aktivierung Ihres Iptv-Kontos per E-Mail oder Whatsapp. Sofort mit dem Streaming beginnen!"
           padding="p-4"
         />
        
         <WhyUs 
         icon="path/to/your/icon.png"
-        title="COMPETITIVE PRICING"
-        text="We believe that quality entertainment should be accessible to all. That's why we offer competitive pricing plans that cater to your budget without compromising on quality."
+        title="WETTBEWERBSFÄHIGE PREISE"
+        text="Wir glauben, dass hochwertige Unterhaltung für alle zugänglich sein sollte. Deshalb bieten wir wettbewerbsfähige Preispläne an, die Ihrem Budget entsprechen, ohne Kompromisse bei der Qualität einzugehen."
         />
 
       </div>

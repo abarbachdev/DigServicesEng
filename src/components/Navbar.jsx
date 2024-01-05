@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='bg-black flex justify-between items-center w-full p-4 sm:p-8 fixed z-10'>
       <h1 className='text-white text-2xl md:text-4xl font-semibold cursor-pointer'>
-        <span className='text-orange-500'>4K</span> Iptv <span className='text-orange-500'>USA</span>
+        <span className='text-orange-500'>4K</span> Iptv <span className='text-orange-500'>Deutschlan</span>
       </h1>
 
       <div className='block sm:hidden'>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 duration={500}
                 onClick={toggleMenu} // Close menu on link click
               >
-                Home
+                Heim
               </Link>
             </li>
             <li>
@@ -50,7 +50,7 @@ const Navbar = () => {
                 duration={500}
                 onClick={toggleMenu}
               >
-                Pricing
+                Preisgestaltung
               </Link>
             </li>
             <li>
@@ -63,7 +63,7 @@ const Navbar = () => {
               duration={500}
               onClick={toggleMenu}
             >
-              FAQ
+              häufig gestellte Fragen
             </Link>
           </li>
           <li>
@@ -89,7 +89,7 @@ const Navbar = () => {
               duration={500}
               onClick={toggleMenu}
             >
-              Contact
+              Kontakt
             </Link>
           </li>
           </ul>
@@ -109,7 +109,7 @@ const Navbar = () => {
               offset={-70}
               duration={500}
             >
-              Home
+              Heim
             </Link>
           </li>
           <li>
@@ -121,7 +121,7 @@ const Navbar = () => {
               offset={-70}
               duration={500}
             >
-              Pricing
+              Preisgestaltung
             </Link>
           </li>
           <li>
@@ -133,7 +133,7 @@ const Navbar = () => {
               offset={-70}
               duration={500}
             >
-              FAQ
+              häufig gestellte Fragen
             </Link>
           </li>
           <li>
@@ -158,7 +158,7 @@ const Navbar = () => {
               duration={500}
               onClick={toggleMenu}
             >
-              Contact
+              Kontakt
             </Link>
           </li>
         </ul>

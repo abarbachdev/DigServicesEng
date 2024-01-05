@@ -11,11 +11,11 @@ const Hero = () => {
 
       <div className='absolute top-1/2 transform -translate-y-1/2 text-center w-full px-6 sm:px-36'>
         <h1 className='text-4xl sm:text-6xl text-orange-500 font-bold mb-4 sm:mb-10'>
-          Discover Premium <br className="sm:hidden"/> IPTV Subscriptions
+        Entdecken Sie Premium <br className="sm:hidden"/> IPTV-Abonnements
         </h1>
 
         <h2 className='text-2xl  sm:text-4xl text-white font-semibold mb-8 sm:mb-16'>
-          Your Trusted IPTV Provider <br className="sm:hidden"/> for the Best Services
+        Ihr vertrauenswürdiger IPTV-Anbieter <br className="sm:hidden"/> für die besten Dienstleistungen
         </h2>
 
         <div>
@@ -28,7 +28,7 @@ const Hero = () => {
             offset={-70} // Adjust this offset as needed based on your layout
             duration={500}
           >
-            Get Yours Now
+            Holen Sie sich jetzt Ihre
           </Link>   
             
           </button>

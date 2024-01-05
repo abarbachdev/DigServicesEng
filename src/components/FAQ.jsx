@@ -5,34 +5,34 @@ const IPTVFaq = () => {
   const [expanded, setExpanded] = useState(null);
 
   const faqs = [
-    { question: 'What is IPTV?',
-      answer: 'IPTV stands for Internet Protocol Television. It is a service that delivers television programming over the internet instead of traditional cable or satellite methods. With IPTV, you can stream live TV channels, movies, series, and more using an internet connection and compatible devices.' },
+    { question: 'Was ist IPTV?',
+      answer: 'IPTV steht für Internet Protocol Television. Dabei handelt es sich um einen Dienst, der Fernsehprogramme über das Internet statt über herkömmliche Kabel- oder Satellitenmethoden überträgt. Mit IPTV können Sie über eine Internetverbindung und kompatible Geräte Live-Fernsehkanäle, Filme, Serien und mehr streamen.' },
 
-      { question: 'How Does IPTV work?',
-      answer: `Content Delivery: TV channels and video content are encoded and transmitted to an IPTV server.
-       User Request: You, the viewer, request specific content through your IPTV subscription and compatible device.
-      Benefits of Best IPTV Subscriptions:
-       - On-Demand Content: Access a vast library of on-demand movies and TV shows.
-       - Live TV: Watch live broadcasts of your favorite channels and sports events.
-       - Multi-Device Compatibility: Use the best IPTV on a variety of devices.` },
+      { question: 'Wie funktioniert IPTV?',
+      answer: `Bereitstellung von Inhalten: TV-Kanäle und Videoinhalte werden kodiert und an einen IPTV-Server übertragen.
+      Benutzeranforderung: Sie, der Zuschauer, fordern bestimmte Inhalte über Ihr IPTV-Abonnement und ein kompatibles Gerät an.
+     Vorteile der besten IPTV-Abonnements:
+      - Inhalte auf Abruf: Zugriff auf eine umfangreiche Bibliothek von Filmen und Fernsehsendungen auf Abruf.
+      - Live-TV: Sehen Sie Live-Übertragungen Ihrer Lieblingssender und Sportereignisse.
+      - Multi-Device-Kompatibilität: Nutzen Sie das beste IPTV auf einer Vielzahl von Geräten.` },
 
-    { question: 'How do I subscribe to the service?',
-      answer: 'Subscribing to our service is simple. You can choose a subscription plan that suits your needs and make the payment online. Once subscribed, you will receive instructions on how to access our IPTV service on your preferred devices.' },
+    { question: 'Wie kann ich den Dienst abonnieren?',
+      answer: 'Das Abonnieren unseres Dienstes ist einfach. Sie können einen Abonnementplan wählen, der Ihren Bedürfnissen entspricht, und die Zahlung online vornehmen. Sobald Sie ein Abonnement abgeschlossen haben, erhalten Sie Anweisungen, wie Sie unseren IPTV-Dienst auf Ihren bevorzugten Geräten nutzen können.' },
 
-    { question: 'Can I use IPTV on multiple devices?',
-      answer: 'Yes, our service allows simultaneous streaming on multiple devices. You can access our IPTV service on various devices such as smart TVs, computers, smartphones, tablets, and streaming devices. Just log in with your account credentials and enjoy your favorite content on different devices at the same time.' },
+    { question: 'Kann ich IPTV auf mehreren Geräten nutzen?',
+      answer: 'Ja, unser Dienst ermöglicht das gleichzeitige Streaming auf mehreren Geräten. Sie können unseren IPTV-Dienst auf verschiedenen Geräten wie Smart-TVs, Computern, Smartphones, Tablets und Streaming-Geräten nutzen. Melden Sie sich einfach mit Ihren Kontodaten an und genießen Sie Ihre Lieblingsinhalte auf verschiedenen Geräten gleichzeitig.' },
 
-    { question: 'Do I need a VPN to use the IPTV?',
-      answer: 'No, you will not need any VPN to watch the IPTV as we use very advanced solutions to bypass ISP blocking.' },
+    { question: 'Brauche ich ein VPN, um das IPTV zu nutzen?',
+      answer: 'Nein, Sie brauchen kein VPN, um IPTV zu sehen, da wir sehr fortschrittliche Lösungen verwenden, um ISP-Sperren zu umgehen.' },
 
-    { question: 'How many channels are available?',
-      answer: 'Our service provides access to a wide range of channels from different categories. We offer an extensive selection of live TV channels, including local, regional, national, and international channels. You can also enjoy premium channels, sports, movies, series, and on-demand content.' },
+    { question: 'Wie viele Kanäle sind verfügbar?',
+      answer: 'Unser Service ermöglicht den Zugang zu einer breiten Palette von Kanälen aus verschiedenen Kategorien. Wir bieten eine umfangreiche Auswahl an Live-TV-Kanälen, darunter lokale, regionale, nationale und internationale Kanäle. Sie können auch Premium-Kanäle, Sport, Filme, Serien und On-Demand-Inhalte genießen.' },
 
-    { question: 'What if I face technical issues?',
-      answer: 'Our dedicated support team is available to assist you with any technical issues or queries. If you encounter any problems with the service, such as streaming issues, login problems, or device compatibility concerns, you can reach out to our support team via email or live chat for prompt assistance.' },
+    { question: 'Was ist, wenn ich technische Probleme habe?',
+      answer: 'Unser engagiertes Support-Team steht Ihnen bei allen technischen Problemen und Fragen zur Seite. Wenn Sie Probleme mit dem Dienst haben, z. B. Streaming-Probleme, Login-Probleme oder Probleme mit der Gerätekompatibilität, können Sie sich per E-Mail oder Live-Chat an unser Support-Team wenden, das Ihnen umgehend hilft.' },
 
-      { question: 'What do I need to get Started?',
-      answer: ' A good internet connection.(10 MB or more).A compatible device such as a smart TV, set-top box, or smartphone.A subscription to one of our Iptv services' },
+      { question: 'Was brauche ich für den Einstieg?',
+      answer: ' Eine gute Internetverbindung (10 MB oder mehr), ein kompatibles Gerät wie ein Smart-TV, eine Set-Top-Box oder ein Smartphone, ein Abonnement für einen unserer Iptv-Dienste' },
   ];
 
   const toggleExpand = (index) => {
@@ -47,11 +47,11 @@ const IPTVFaq = () => {
 
       <div className='p-4 md:p-8 '>
         <h1 className='text-3xl md:text-5xl font-semibold text-center text-black'>
-        Frequently Asked Questions
+        häufig gestellte Fragen
         </h1>
         <div className='text-center '>
         <h2 className='text-2xl md:text-3xl font-bold p-4 text-orange-500'>
-        How Can We Help You Today?
+        Wie können wir Ihnen heute helfen?
         </h2>
         
         </div>
@@ -82,22 +82,21 @@ const IPTVFaq = () => {
     <div className='w-full md:w-1/3 p-4 md:pl-4'>
               <div className='text-center'>
                 <h1 className='text-2xl font-bold text-black'>
-                  Customer Support Team
+                Team Kundenbetreuung
                 </h1>
                 <p className='text-black'>
-                  We are available to assist you with any issues you may encounter and to provide guidance on how to get the most out of your subscription.
-                </p>
+                Wir stehen Ihnen bei allen Problemen zur Seite und geben Ihnen Hinweise, wie Sie Ihr Abonnement optimal nutzen können.                </p>
               </div>
 
               <div className='p-4 text-center'>
                 <h1 className='text-lg font-bold border-2 border-black px-6 py-2 rounded-md text-black'>
-                  Live Chat
+                Live-Chat
                 </h1>
               </div>
 
               <div className='p-4 border-2 border-black rounded-md text-center'>
                 <h1 className='text-lg font-bold text-black'>
-                  Email
+                E-Mail
                 </h1>
                 <p className='text-black'>4kiptv.services.pro@gmail.com</p>
               </div>
