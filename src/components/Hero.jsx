@@ -9,7 +9,7 @@ const Hero = () => {
     <div className='w-full relative top-10'>
       <img src={homeimg} className="w-full h-auto sm:h-screen object-cover" alt="IPTV Image"/>
 
-      <div className='absolute top-1/2 transform -translate-y-1/2 text-center w-full px-6 sm:px-36'>
+      <div className='absolute top-1/2 transform -translate-y-1/2 text-center w-full px-6 sm:px-36 sm:items-center'>
         <h1 className='text-4xl sm:text-6xl text-orange-500 font-bold mb-4 sm:mb-10'>
         Entdecken Sie  <br className="sm:hidden"/> Premium-IPTV-Abos
         </h1>
