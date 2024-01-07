@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='bg-black flex justify-between items-center w-full p-4 sm:p-8 fixed z-10'>
       <h1 className='text-white text-2xl md:text-4xl font-semibold cursor-pointer'>
-        <span className='text-orange-500'>4K</span> Iptv <span className='text-orange-500'>Deutschlan</span>
+        <span className='text-orange-500'>4K</span> Iptv <span className='text-orange-500'>Deutschland</span>
       </h1>
 
       <div className='block sm:hidden'>

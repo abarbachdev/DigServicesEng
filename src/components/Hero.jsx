@@ -11,11 +11,11 @@ const Hero = () => {
 
       <div className='absolute top-1/2 transform -translate-y-1/2 text-center w-full px-6 sm:px-36'>
         <h1 className='text-4xl sm:text-6xl text-orange-500 font-bold mb-4 sm:mb-10'>
-        Entdecken Sie Premium <br className="sm:hidden"/> IPTV-Abonnements
+        Entdecken Sie  <br className="sm:hidden"/> Premium-IPTV-Abos
         </h1>
 
         <h2 className='text-2xl  sm:text-4xl text-white font-semibold mb-8 sm:mb-16'>
-        Ihr vertrauenswürdiger IPTV-Anbieter <br className="sm:hidden"/> für die besten Dienstleistungen
+        Ihr zuverlässiger Anbieter für  <br className="sm:hidden"/> Top-IPTV-Dienste
         </h2>
 
         <div>
