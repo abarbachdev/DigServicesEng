@@ -14,10 +14,6 @@ const Hero = () => {
         Entdecken Sie  <br className="sm:hidden"/> Premium-IPTV-Abos
         </h1>
 
-        <h2 className='text-2xl  sm:text-4xl text-white font-semibold mb-8 sm:mb-16'>
-        Ihr zuverlässiger Anbieter für  <br className="sm:hidden"/> Top-IPTV-Dienste
-        </h2>
-
         <div>
           <button type='button' className='bg-orange-500 text-lg sm:text-2xl text-white rounded-md px-8 sm:px-20 py-2 hover:text-black'>
           <Link
